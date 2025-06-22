@@ -11,7 +11,7 @@ import Footer from "../components/Footer";
 import { toast } from "react-toastify";
 import axios from "axios";
 import { useAuth } from "@clerk/clerk-react";
-import JobApplication from "../../../server/models/JobApplication";
+
 
 const ApplyJob = () => {
   const { id } = useParams();
