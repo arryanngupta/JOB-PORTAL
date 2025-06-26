@@ -69,7 +69,7 @@ const Applications = () => {
           </> :
           <div className="flex gap-2">
             <a className="bg-blue-100 text-blue-600 px-4 py-2 rounded-lg "
-            href={userData.resume} target="_blank">Resume</a>
+            href={userData?.resume|| ''} target="_blank">Resume</a>
             <button onClick={() => setIsEdit(true)} className="text-gray-500 border border-gray-300 rounded-lg px-4 py-2">Edit</button>
           </div>
         }
